@@ -1,6 +1,7 @@
 // Heroku
 // dajimenezriv@gmail.com
 // dibujante1_
+// https://dashboard.heroku.com/apps/full-stack-open-2021/deploy/heroku-git
 
 const express = require('express')
 const app = express()
@@ -30,6 +31,7 @@ app.use(morgan(function (tokens, req, res) {
   ].join(' ')
 }))
 app.use(cors())
+app.use(express.static('build'))
 
 const PORT = process.env.PORT || 3001
 const MAX_ID = 10000000

@@ -9,7 +9,7 @@
 // doesn't work in heroku because it doesn't have the file .env with the all the configuration
 
 // Heroku environment variables
-// heroku config:set MONGODB_URI='mongodb+srv://fullstack:secretpasswordhere@cluster0-ostce.mongodb.net/note-app?retryWrites=true'
+// heroku config:set MONGODB_URI=mongodb+srv://dajimenezriv:password@cluster0.zdudq.mongodb.net/persons?retryWrites=true&w=majority
 
 // MongoDB (google account)
 // dajimenezriv // <password>

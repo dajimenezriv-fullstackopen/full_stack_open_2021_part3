@@ -3,7 +3,7 @@ content-type: application/json
 
 {
     "name": "Alicia Modified",
-    "number": "123456789"
+    "number": "12-3456789"
 }
 
 ###
@@ -12,7 +12,16 @@ content-type: application/json
 
 {
     "name": "Alicia Modified2",
-    "number": "123456789"
+    "number": "12-3456789"
+}
+
+###
+PUT http://localhost:3001/api/persons/61f0508f21ec723459556510 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Alicia Modified3",
+    "number": "1234-56789"
 }
 
 ###

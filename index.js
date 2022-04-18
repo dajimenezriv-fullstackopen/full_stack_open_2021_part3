@@ -6,7 +6,6 @@
 // https://dashboard.heroku.com/apps/full-stack-open-2021/deploy/heroku-git
 // https://full-stack-open-2021.herokuapp.com/
 // https://full-stack-open-2021.herokuapp.com/api/persons
-// doesn't work in heroku because it doesn't have the file .env with the all the configuration
 
 // Heroku environment variables
 // heroku config:set MONGODB_URI=mongodb+srv://dajimenezriv:password@cluster0.zdudq.mongodb.net/persons?retryWrites=true&w=majority

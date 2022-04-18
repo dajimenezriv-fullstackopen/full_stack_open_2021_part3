@@ -18,9 +18,9 @@ ESLint.
 
 ## How to run?
 
-### Locally
+First, follow the steps of https://github.com/dajimenezriv/full_stack_open_2021#using-real-backend.
 
-First, follow the steps of PENDING.
+### Locally
 
 We need to create a database called <b>persons</b> in MongoDB.
 Create a file called <b>.env</b> in the root of the folder with the following content:
@@ -30,7 +30,7 @@ MONGODB_URI='mongodb+srv://<username>:<password>@cluster0.zdudq.mongodb.net/pers
 PORT=3001
 ```
 
-Then, in the root of the folder:
+Open the console in the root of the folder:
 
 ```console
 # development mode
@@ -39,4 +39,15 @@ npm run dev
 npm start
 ```
 
-###
+### Heroku
+
+The url of the project is at https://full-stack-open-2021.herokuapp.com/.
+Open the console in the root of the folder:
+
+```console
+heroku login
+heroku config:set MONGODB_URI=mongodb+srv://dajimenezriv:<password>@cluster0.zdudq.mongodb.net/persons?retryWrites=true&w=majority
+git add .
+git commit -am 'new commit'
+git push heroku main
+```

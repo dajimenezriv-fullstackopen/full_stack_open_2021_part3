@@ -22,7 +22,7 @@ First, follow the steps of https://github.com/dajimenezriv/full_stack_open_2021#
 
 ### Locally
 
-We need to create a database called <b>persons</b> in MongoDB.
+We need to create a database called <b>persons</b> in MongoDB.<br>
 Create a file called <b>.env</b> in the root of the folder with the following content:
 
 ```

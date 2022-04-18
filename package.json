@@ -31,5 +31,8 @@
   "devDependencies": {
     "eslint": "^8.8.0",
     "nodemon": "^2.0.15"
+  },
+  "resolutions": {
+    "minimist": "1.2.6"
   }
 }
